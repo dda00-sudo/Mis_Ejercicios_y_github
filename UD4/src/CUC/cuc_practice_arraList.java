@@ -105,7 +105,7 @@ public class cuc_practice_arraList {
     public static void cabezaCuc(int tauler[][],ArrayList<int[]>cuc){
        int i=0;
        for(int[]posCuc:cuc){       
-           tauler[posCuc[0]][posCuc[1]]= i==cuc.size()-1?SIMBOL_CAPCUC:SIMBOL_CUC;
+           tauler[posCuc[0]][posCuc[1]]= (i==cuc.size()-1)?SIMBOL_CAPCUC:SIMBOL_CUC;
            i++;
         }
     }
